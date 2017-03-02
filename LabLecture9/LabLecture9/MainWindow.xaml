@@ -18,6 +18,7 @@
         <RadioButton x:Name="radioBtn" Content="InsertionSort" HorizontalAlignment="Left" Margin="10,179,0,0" VerticalAlignment="Top" Checked="InsertionChecked"/>
         <RadioButton x:Name="radioBtnShell" Content="ShellSort" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" Checked="ShellChecked"/>
         <RadioButton x:Name="radioBrnQuick" Content="QuickSort" HorizontalAlignment="Left" Margin="10,238,0,0" VerticalAlignment="Top" Checked="QuickChecked"/>
+        <Label x:Name="labelTime" Content="TIME" HorizontalAlignment="Left" Margin="322,268,0,0" VerticalAlignment="Top" Width="101"/>
 
     </Grid>
 </Window>

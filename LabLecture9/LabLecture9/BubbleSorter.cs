@@ -9,7 +9,13 @@ namespace LabLecture9
 {
     class BubbleSorter : Template, ISuperSorter
     {
-        public int[] Sort(int[] data)
+
+        public override int[] StartSort(int[] data)
+        {
+            return BubbleSort(data);
+        }
+
+        public int[] BubbleSort(int[] data)
         {
             int i, j;
             int N = data.Length;
@@ -22,7 +28,6 @@ namespace LabLecture9
                         Exchange(data, i, i + 1);
                 }
             }
-
             return data;
         }
     }

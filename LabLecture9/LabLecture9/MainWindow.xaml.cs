@@ -22,6 +22,8 @@ namespace LabLecture9
     public partial class MainWindow : Window
     {
         private int[] array;
+        private double _time;
+        private Tuple<int[], double> tuple;
         private ArrayGenerator generator;
         private ISuperSorter sorter;
         private int size;
@@ -56,7 +58,7 @@ namespace LabLecture9
             {
                 case Sorters.BUBBLE:
                 {
-                        sorter = new BubbleSorter();
+                    sorter = new BubbleSorter();
                 } break;
                     
                 case Sorters.INSERTION:
@@ -65,17 +67,22 @@ namespace LabLecture9
                 } break;
                 case Sorters.QUICK:
                 {
-                    
+                    sorter = new QuickSorter();
                 } break;
                 case Sorters.SHELL:
                 {
-                    
+                    sorter = new ShellSorter();
                 } break; 
             }
 
-            array = sorter.Sort(array);
+            tuple = sorter.Sort(array);
+
+            array = tuple.Item1;
+            _time = tuple.Item2;
+            
             updateListbox();
 
+            labelTime.Content = _time + " " + "milliseconds";
         }
 
         private void updateListbox()

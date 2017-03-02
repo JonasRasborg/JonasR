@@ -8,7 +8,12 @@ namespace LabLecture9
 {
     class InsertionSorter : Template, ISuperSorter
     {
-        public int[] Sort(int[] data)
+        public override int[] StartSort(int[] data)
+        {
+            return InsertionSort(data);
+        }
+
+        public int[] InsertionSort(int[] data)
         {
             int i, j;
             int N = data.Length;

@@ -46,7 +46,7 @@ namespace LabLecture9
             return intervals;
         }
 
-        public int[] Sort(int[] data)
+        public override int[] StartSort(int[] data)
         {
             int[] intervals = GenerateIntervals(data.Length);
             return ShellSort(data, intervals);

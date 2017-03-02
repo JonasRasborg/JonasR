@@ -8,17 +8,22 @@ namespace LabLecture9
 {
     class QuickSorter : Template, ISuperSorter
     {
+        private int _l;
+        private int _r;
 
-        public int[] Sort(int[] data)
+        public override int[] StartSort(int[] data)
         {
-            return QuickSort(data, l, r);
+            _l = 0;
+            _r = data.Length - 1;
+            return QuickSort(data, _l, _r);
         }
+
         public int[] QuickSort(int[] data, int l, int r)
         {
             int i, j;
             int x;
 
-            i = l-1;
+            i = l;
             j = r;
 
             x = data[(l + r) / 2]; /* find pivot item */
