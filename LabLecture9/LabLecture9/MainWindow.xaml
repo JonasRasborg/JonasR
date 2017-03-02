@@ -10,14 +10,14 @@
         <Button x:Name="button" Content="Create Array" HorizontalAlignment="Left" Margin="124,122,0,0" VerticalAlignment="Top" Width="75" Click="CreateClick"/>
         <TextBox x:Name="textBoxSize" HorizontalAlignment="Left" Height="23" Margin="79,27,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="textBoxSeed" HorizontalAlignment="Left" Height="23" Margin="79,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="220" Margin="266,27,0,0" VerticalAlignment="Top" Width="157" ItemsSource="{Binding}" IsSynchronizedWithCurrentItem="True"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="220" Margin="266,27,0,0" VerticalAlignment="Top" Width="157"/>
         <Label x:Name="label" Content="Size" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label1" Content="Seed" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top"/>
         <Button x:Name="button1" Content="Sort" HorizontalAlignment="Left" Margin="124,230,0,0" VerticalAlignment="Top" Width="75" Click="SortClick"/>
-        <RadioButton x:Name="radioBtnBubble" Content="BubbleSort" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="radioBtn" Content="InsertionSort" HorizontalAlignment="Left" Margin="10,179,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="radioBtnShell" Content="ShellSort" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="radioBrnQuick" Content="QuickSort" HorizontalAlignment="Left" Margin="10,238,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioBtnBubble" Content="BubbleSort" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" Checked="BubbleChecked" IsChecked="True"/>
+        <RadioButton x:Name="radioBtn" Content="InsertionSort" HorizontalAlignment="Left" Margin="10,179,0,0" VerticalAlignment="Top" Checked="InsertionChecked"/>
+        <RadioButton x:Name="radioBtnShell" Content="ShellSort" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" Checked="ShellChecked"/>
+        <RadioButton x:Name="radioBrnQuick" Content="QuickSort" HorizontalAlignment="Left" Margin="10,238,0,0" VerticalAlignment="Top" Checked="QuickChecked"/>
 
     </Grid>
 </Window>

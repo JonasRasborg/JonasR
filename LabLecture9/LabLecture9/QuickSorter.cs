@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace LabLecture9
 {
-    class QuickSorter : Template
+    class QuickSorter : Template, ISuperSorter
     {
-        public DTO<int> Sort(DTO<int> data, int l, int r)
+
+        public int[] Sort(int[] data)
+        {
+            return QuickSort(data, l, r);
+        }
+        public int[] QuickSort(int[] data, int l, int r)
         {
             int i, j;
             int x;
@@ -25,7 +30,7 @@ namespace LabLecture9
                     j--;
                 if (i <= j)
                 {
-                    exchange(data, i, j);
+                    Exchange(data, i, j);
                     i++;
                     j--;
                 }
@@ -33,9 +38,9 @@ namespace LabLecture9
                     break;
             }
             if (l < j)
-                Sort(data, l, j);
+                QuickSort(data, l, j);
             if (i < r)
-                Sort(data, i, r);
+                QuickSort(data, i, r);
 
            return data;
         }

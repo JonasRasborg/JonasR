@@ -11,24 +11,25 @@ namespace LabLecture9
     {
         private int _size;
         private int _seed;
-        private DTO<int> array;
+        private int[] array;
 
         public ArrayGenerator(int size, int seed)
         {
             _size = size;
             _seed = seed;
+
+           // ObservableCollection<SomeClass> TheObservableCollection = new ObservableCollection<SomeClass>(TheArray);
         }
 
-        public DTO<int> GenerateArray()
+        public int[] GenerateArray()
         {
             Random rnd = new Random(_seed);
-            array = new DTO<int>();
+            array = new int[_size];
 
             for (int i = 0; i < _size-1; i++)
             {
                 array[i] = rnd.Next(0, _size);
             }
-
             return array;
         }
     }

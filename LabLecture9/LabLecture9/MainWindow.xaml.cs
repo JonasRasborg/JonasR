@@ -21,17 +21,24 @@ namespace LabLecture9
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        private DTO<int> array;
+        private int[] array;
         private ArrayGenerator generator;
         private ISuperSorter sorter;
         private int size;
         private int seed;
-
+        private Sorters _currentSorter;
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = array;
+            sorter = new BubbleSorter();
+        }
+
+        enum Sorters
+        {
+            BUBBLE,
+            SHELL,
+            INSERTION,
+            QUICK
         }
 
         private void CreateClick(object sender, RoutedEventArgs e)
@@ -40,12 +47,61 @@ namespace LabLecture9
             seed = int.Parse(textBoxSeed.Text);
             generator = new ArrayGenerator(size, seed);
             array = generator.GenerateArray();
+            updateListbox();
         }
 
         private void SortClick(object sender, RoutedEventArgs e)
         {
-            sorter = new BubbleSorter();
+            switch (_currentSorter)
+            {
+                case Sorters.BUBBLE:
+                {
+                        sorter = new BubbleSorter();
+                } break;
+                    
+                case Sorters.INSERTION:
+                {
+                    sorter = new InsertionSorter();
+                } break;
+                case Sorters.QUICK:
+                {
+                    
+                } break;
+                case Sorters.SHELL:
+                {
+                    
+                } break; 
+            }
+
             array = sorter.Sort(array);
+            updateListbox();
+
+        }
+
+        private void updateListbox()
+        {
+            listBox.ItemsSource = null;
+            listBox.ItemsSource = array;
+        }
+
+        private void BubbleChecked(object sender, RoutedEventArgs e)
+        {
+            _currentSorter = Sorters.BUBBLE;
+        }
+
+        private void InsertionChecked(object sender, RoutedEventArgs e)
+        {
+            _currentSorter = Sorters.INSERTION;
+        }
+
+        private void ShellChecked(object sender, RoutedEventArgs e)
+        {
+            _currentSorter = Sorters.SHELL;
+        }
+
+        private void QuickChecked(object sender, RoutedEventArgs e)
+        {
+            _currentSorter = Sorters.QUICK;
         }
     }
 }

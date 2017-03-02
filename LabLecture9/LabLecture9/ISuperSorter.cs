@@ -9,6 +9,6 @@ namespace LabLecture9
 {
     interface ISuperSorter
     {
-        DTO<int> Sort(DTO<int> data);
+       int[] Sort(int[] data);
     }
 }

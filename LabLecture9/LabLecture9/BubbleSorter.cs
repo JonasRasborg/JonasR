@@ -9,17 +9,17 @@ namespace LabLecture9
 {
     class BubbleSorter : Template, ISuperSorter
     {
-        public DTO<int> Sort(DTO<int> data)
+        public int[] Sort(int[] data)
         {
             int i, j;
-            int N = data.Count;
+            int N = data.Length;
 
             for (j = N - 1; j > 0; j--)
             {
                 for (i = 0; i < j; i++)
                 {
                     if (data[i] > data[i + 1])
-                        exchange(data, i, i + 1);
+                        Exchange(data, i, i + 1);
                 }
             }
 

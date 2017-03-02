@@ -9,6 +9,6 @@ namespace LabLecture9
 {
     class DTO<T> : ObservableCollection<T>
     {
-
+        
     }
 }
