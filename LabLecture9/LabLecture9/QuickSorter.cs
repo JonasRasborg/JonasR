@@ -8,7 +8,7 @@ namespace LabLecture9
 {
     class QuickSorter : Template
     {
-        public int[] Sort(int[] data, int l, int r)
+        public DTO<int> Sort(DTO<int> data, int l, int r)
         {
             int i, j;
             int x;

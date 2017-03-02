@@ -12,3 +12,17 @@ C:\Users\Jonas\Documents\Visual Studio 2015\Git\repo05\LabLecture9\LabLecture9\o
 C:\Users\Jonas\Documents\Visual Studio 2015\Git\repo05\LabLecture9\LabLecture9\obj\Debug\LabLecture9.csproj.GenerateResource.Cache
 C:\Users\Jonas\Documents\Visual Studio 2015\Git\repo05\LabLecture9\LabLecture9\obj\Debug\LabLecture9.exe
 C:\Users\Jonas\Documents\Visual Studio 2015\Git\repo05\LabLecture9\LabLecture9\obj\Debug\LabLecture9.pdb
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\bin\Debug\LabLecture9.exe.config
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\obj\Debug\LabLecture9.exe
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\obj\Debug\LabLecture9.pdb
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\obj\Debug\LabLecture9.csprojResolveAssemblyReference.cache
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\obj\Debug\MainWindow.g.cs
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\obj\Debug\App.g.cs
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\obj\Debug\LabLecture9_MarkupCompile.cache
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\obj\Debug\LabLecture9_MarkupCompile.lref
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\bin\Debug\LabLecture9.exe
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\bin\Debug\LabLecture9.pdb
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\obj\Debug\MainWindow.baml
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\obj\Debug\LabLecture9.g.resources
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\obj\Debug\LabLecture9.Properties.Resources.resources
+C:\Users\Jonas R. Hartogsohn\Documents\Visual Studio 2015\Git\JonasR2\LabLecture9\LabLecture9\obj\Debug\LabLecture9.csproj.GenerateResource.Cache

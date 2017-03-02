@@ -7,8 +7,8 @@ using System.Collections.ObjectModel;
 
 namespace LabLecture9
 {
-    interface ISuperSorter
+    class DTO<T> : ObservableCollection<T>
     {
-        DTO<int> Sort(DTO<int> data);
+
     }
 }

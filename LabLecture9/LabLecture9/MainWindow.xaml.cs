@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Collections.ObjectModel;
 
 namespace LabLecture9
 {
@@ -20,8 +21,9 @@ namespace LabLecture9
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        private DTO<int> array;
         private ArrayGenerator generator;
-        private IObservable<int[]> array;
         private ISuperSorter sorter;
         private int size;
         private int seed;

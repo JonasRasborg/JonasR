@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections.ObjectModel;
 
 namespace LabLecture9
 {
@@ -10,7 +11,7 @@ namespace LabLecture9
     {
         private int _size;
         private int _seed;
-        private int[] _array;
+        private DTO<int> array;
 
         public ArrayGenerator(int size, int seed)
         {
@@ -18,17 +19,17 @@ namespace LabLecture9
             _seed = seed;
         }
 
-        public int[] GenerateArray()
+        public DTO<int> GenerateArray()
         {
-            Random rnd = new Random();
-            _array = new int[_size];
+            Random rnd = new Random(_seed);
+            array = new DTO<int>();
 
             for (int i = 0; i < _size-1; i++)
             {
-                _array[i] = rnd.Next(_seed);
+                array[i] = rnd.Next(0, _size);
             }
 
-            return _array;
+            return array;
         }
     }
 }

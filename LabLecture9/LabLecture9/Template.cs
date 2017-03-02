@@ -8,7 +8,7 @@ namespace LabLecture9
 {
     abstract class Template
     {
-        public void exchange(int[] data, int i, int j)
+        public void exchange(DTO<int> data, int i, int j)
         {
             int _i = data[i];
             int _j = data[j];
