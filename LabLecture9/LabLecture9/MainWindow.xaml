@@ -5,20 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LabLecture9"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="332.353" Width="963.235">
     <Grid>
-        <Button x:Name="button" Content="Create Array" HorizontalAlignment="Left" Margin="124,122,0,0" VerticalAlignment="Top" Width="75" Click="CreateClick"/>
-        <TextBox x:Name="textBoxSize" HorizontalAlignment="Left" Height="23" Margin="79,27,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBoxSeed" HorizontalAlignment="Left" Height="23" Margin="79,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="Create Array" HorizontalAlignment="Left" Margin="124,118,0,0" VerticalAlignment="Top" Width="75" Click="CreateClick"/>
+        <TextBox x:Name="textBoxSize" HorizontalAlignment="Left" Height="23" Margin="79,49,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxSeed" HorizontalAlignment="Left" Height="23" Margin="79,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="220" Margin="266,27,0,0" VerticalAlignment="Top" Width="157"/>
-        <Label x:Name="label" Content="Size" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label1" Content="Seed" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button1" Content="Sort" HorizontalAlignment="Left" Margin="124,230,0,0" VerticalAlignment="Top" Width="75" Click="SortClick"/>
-        <RadioButton x:Name="radioBtnBubble" Content="BubbleSort" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" Checked="BubbleChecked" IsChecked="True"/>
-        <RadioButton x:Name="radioBtn" Content="InsertionSort" HorizontalAlignment="Left" Margin="10,179,0,0" VerticalAlignment="Top" Checked="InsertionChecked"/>
-        <RadioButton x:Name="radioBtnShell" Content="ShellSort" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" Checked="ShellChecked"/>
-        <RadioButton x:Name="radioBrnQuick" Content="QuickSort" HorizontalAlignment="Left" Margin="10,238,0,0" VerticalAlignment="Top" Checked="QuickChecked"/>
-        <Label x:Name="labelTime" Content="TIME" HorizontalAlignment="Left" Margin="322,268,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label x:Name="label" Content="Size" HorizontalAlignment="Left" Margin="10,46,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Seed" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Sort" HorizontalAlignment="Left" Margin="124,209,0,0" VerticalAlignment="Top" Width="75" Click="SortClick"/>
+        <RadioButton x:Name="radioBtnBubble" Content="BubbleSort" HorizontalAlignment="Left" Margin="10,157,0,0" VerticalAlignment="Top" Checked="BubbleChecked" IsChecked="True"/>
+        <RadioButton x:Name="radioBtn" Content="InsertionSort" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Checked="InsertionChecked"/>
+        <RadioButton x:Name="radioBtnShell" Content="ShellSort" HorizontalAlignment="Left" Margin="10,214,0,0" VerticalAlignment="Top" Checked="ShellChecked"/>
+        <RadioButton x:Name="radioBrnQuick" Content="QuickSort" HorizontalAlignment="Left" Margin="10,244,0,0" VerticalAlignment="Top" Checked="QuickChecked"/>
+        <Label x:Name="labelTime" Content="TIME" HorizontalAlignment="Left" Margin="322,262,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label x:Name="label2" Content="Size" HorizontalAlignment="Left" Margin="488,48,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Seed" HorizontalAlignment="Left" Margin="488,85,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxSizeTest" HorizontalAlignment="Left" Height="23" Margin="589,49,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxSeedTest" HorizontalAlignment="Left" Height="23" Margin="589,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label4" Content="Test All" HorizontalAlignment="Left" Margin="612,5,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="BubbleLabel" Content="BubbleSort: " HorizontalAlignment="Left" Margin="488,148,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="InsertionLabel" Content="InsertionSort: " HorizontalAlignment="Left" Margin="488,179,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ShellLabel" Content="ShellSort: " HorizontalAlignment="Left" Margin="488,208,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="QuickLabel" Content="QuickSort: " HorizontalAlignment="Left" Margin="488,238,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="220" Margin="752,27,0,0" VerticalAlignment="Top" Width="160"/>
+        <Button x:Name="btnTest" Content="GO!" HorizontalAlignment="Left" Margin="634,123,0,0" VerticalAlignment="Top" Width="75" Click="TestClick"/>
 
     </Grid>
 </Window>

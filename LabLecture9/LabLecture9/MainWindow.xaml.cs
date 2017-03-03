@@ -22,6 +22,8 @@ namespace LabLecture9
     public partial class MainWindow : Window
     {
         private int[] array;
+        private int[] testArray;
+        private int[] testArrayDone;
         private double _time;
         private Tuple<int[], double> tuple;
         private ArrayGenerator generator;
@@ -49,46 +51,60 @@ namespace LabLecture9
             seed = int.Parse(textBoxSeed.Text);
             generator = new ArrayGenerator(size, seed);
             array = generator.GenerateArray();
-            updateListbox();
+            updateListbox(listBox, array);
         }
 
-        private void SortClick(object sender, RoutedEventArgs e)
+
+        private void SortSwitch()
         {
             switch (_currentSorter)
             {
                 case Sorters.BUBBLE:
-                {
-                    sorter = new BubbleSorter();
-                } break;
-                    
+                    {
+                        sorter = new BubbleSorter();
+                    }
+                    break;
+
                 case Sorters.INSERTION:
-                {
-                    sorter = new InsertionSorter();
-                } break;
+                    {
+                        sorter = new InsertionSorter();
+                    }
+                    break;
                 case Sorters.QUICK:
-                {
-                    sorter = new QuickSorter();
-                } break;
+                    {
+                        sorter = new QuickSorter();
+                    }
+                    break;
                 case Sorters.SHELL:
-                {
-                    sorter = new ShellSorter();
-                } break; 
+                    {
+                        sorter = new ShellSorter();
+                    }
+                    break;
             }
+        }
+
+        private void SortClick(object sender, RoutedEventArgs e)
+        {
+            Cursor = Cursors.Wait;
+
+            SortSwitch();
 
             tuple = sorter.Sort(array);
 
             array = tuple.Item1;
             _time = tuple.Item2;
             
-            updateListbox();
+            updateListbox(listBox, array);
 
             labelTime.Content = _time + " " + "milliseconds";
+
+            Cursor = Cursors.Arrow;
         }
 
-        private void updateListbox()
+        private void updateListbox(ListBox listbox, int[] _array)
         {
-            listBox.ItemsSource = null;
-            listBox.ItemsSource = array;
+            listbox.ItemsSource = null;
+            listbox.ItemsSource = _array;
         }
 
         private void BubbleChecked(object sender, RoutedEventArgs e)
@@ -109,6 +125,76 @@ namespace LabLecture9
         private void QuickChecked(object sender, RoutedEventArgs e)
         {
             _currentSorter = Sorters.QUICK;
+        }
+
+
+        private void TestClick(object sender, RoutedEventArgs e)
+        {
+            Cursor = Cursors.Wait;
+            SortTest();
+            Cursor = Cursors.Arrow;
+        }
+
+        private void generateTestArray()
+        {
+            size = int.Parse(textBoxSizeTest.Text);
+            seed = int.Parse(textBoxSeedTest.Text);
+
+            generator = new ArrayGenerator(size, seed);
+
+            testArray = generator.GenerateArray();
+            updateListbox(listBox1, testArray);
+        }
+
+        private void SortTest()
+        {
+            generateTestArray();
+            sorter = new BubbleSorter();
+            tuple = sorter.Sort(testArray);
+
+            testArray = tuple.Item1;
+            _time = tuple.Item2;
+
+            updateListbox(listBox1, testArray);
+
+            BubbleLabel.Content = "BubbleSorter: \t" + _time + " " + "milliseconds";
+
+
+            generateTestArray();
+            sorter = new InsertionSorter();
+            tuple = sorter.Sort(testArray);
+
+            testArray = tuple.Item1;
+            _time = tuple.Item2;
+
+            updateListbox(listBox1, testArray);
+
+            InsertionLabel.Content = "InsertionSorter: \t" + _time + " " + "milliseconds";
+
+
+            generateTestArray();
+            sorter = new ShellSorter();
+            tuple = sorter.Sort(testArray);
+
+            testArray = tuple.Item1;
+            _time = tuple.Item2;
+
+            updateListbox(listBox1, testArray);
+
+            ShellLabel.Content = "ShellSorter: \t" + _time + " " + "milliseconds";
+
+
+            generateTestArray();
+            sorter = new QuickSorter();
+            tuple = sorter.Sort(testArray);
+
+            testArray = tuple.Item1;
+            _time = tuple.Item2;
+
+            updateListbox(listBox1, testArray);
+
+            QuickLabel.Content = "QuickSorter: \t" + _time + " " + "milliseconds";
+
         }
     }
 }

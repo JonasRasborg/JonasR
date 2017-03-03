@@ -17,8 +17,6 @@ namespace LabLecture9
         {
             _size = size;
             _seed = seed;
-
-           // ObservableCollection<SomeClass> TheObservableCollection = new ObservableCollection<SomeClass>(TheArray);
         }
 
         public int[] GenerateArray()
