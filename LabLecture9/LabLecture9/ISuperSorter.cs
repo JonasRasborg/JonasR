@@ -9,6 +9,6 @@ namespace LabLecture9
 {
     interface ISuperSorter
     {
-       Tuple<int[], double> Sort(int[] data);
+       Tuple<int[], double> Sort(int[] data); //Returns array and sorting-time
     }
 }

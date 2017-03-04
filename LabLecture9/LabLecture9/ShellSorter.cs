@@ -8,6 +8,12 @@ namespace LabLecture9
 {
     class ShellSorter : Template, ISuperSorter
     {
+        public override int[] StartSort(int[] data)
+        {
+            int[] intervals = GenerateIntervals(data.Length);
+            return ShellSort(data, intervals);
+        }
+
         public int[] ShellSort(int[] data, int[] intervals)
         {
             int i, j, k, m;
@@ -44,12 +50,6 @@ namespace LabLecture9
             for (int i = 1; i < t; i++)
                 intervals[i] = 3 * intervals[i - 1] + 1;
             return intervals;
-        }
-
-        public override int[] StartSort(int[] data)
-        {
-            int[] intervals = GenerateIntervals(data.Length);
-            return ShellSort(data, intervals);
         }
     }
 }

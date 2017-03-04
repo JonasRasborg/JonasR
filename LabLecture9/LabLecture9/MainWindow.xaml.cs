@@ -155,8 +155,6 @@ namespace LabLecture9
             testArray = tuple.Item1;
             _time = tuple.Item2;
 
-            updateListbox(listBox1, testArray);
-
             BubbleLabel.Content = "BubbleSorter: \t" + _time + " " + "milliseconds";
 
 
@@ -166,8 +164,6 @@ namespace LabLecture9
 
             testArray = tuple.Item1;
             _time = tuple.Item2;
-
-            updateListbox(listBox1, testArray);
 
             InsertionLabel.Content = "InsertionSorter: \t" + _time + " " + "milliseconds";
 
@@ -179,9 +175,7 @@ namespace LabLecture9
             testArray = tuple.Item1;
             _time = tuple.Item2;
 
-            updateListbox(listBox1, testArray);
-
-            ShellLabel.Content = "ShellSorter: \t" + _time + " " + "milliseconds";
+             ShellLabel.Content = "ShellSorter: \t" + _time + " " + "milliseconds";
 
 
             generateTestArray();
@@ -190,8 +184,6 @@ namespace LabLecture9
 
             testArray = tuple.Item1;
             _time = tuple.Item2;
-
-            updateListbox(listBox1, testArray);
 
             QuickLabel.Content = "QuickSorter: \t" + _time + " " + "milliseconds";
 

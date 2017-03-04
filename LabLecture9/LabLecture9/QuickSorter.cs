@@ -8,13 +8,10 @@ namespace LabLecture9
 {
     class QuickSorter : Template, ISuperSorter
     {
-        private int _l;
-        private int _r;
-
         public override int[] StartSort(int[] data)
         {
-            _l = 0;
-            _r = data.Length - 1;
+            int _l = 0;
+            int _r = data.Length - 1;
             return QuickSort(data, _l, _r);
         }
 
