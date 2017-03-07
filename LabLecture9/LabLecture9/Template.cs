@@ -5,14 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using System.Threading;
+using System.Diagnostics;
 
 namespace LabLecture9
 {
     abstract class Template
     {
+        private Stopwatch _stopWatch;
         private double _time;
-        private Thread _timer;
-        private bool going = false;
 
         public Tuple<int[], double> Sort(int[] data)
         {
@@ -39,26 +39,14 @@ namespace LabLecture9
 
         public void TimerStart()
         {
-            _timer = new Thread(Timer);
-            going = true;
-            _timer.Start();
-        }
-
-        private void Timer()
-        {
-            _time = 0;
-
-            while (going)
-            {
-                _time += 1;
-                Thread.Sleep(1);
-            }
+            _stopWatch = new Stopwatch();
+            _stopWatch.Start();
         }
 
         public void TimerStop()
         {
-            going = false;
-            _timer.Abort();
+            _stopWatch.Stop();
+            _time = _stopWatch.ElapsedMilliseconds;
         }
     }
 }
