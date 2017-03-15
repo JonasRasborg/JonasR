@@ -1,0 +1,10 @@
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\ProgressBars2\bin\Debug\ProgressBars2.dll
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\ProgressBars2\bin\Debug\ProgressBars2.pdb
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\ProgressBars2\obj\Debug\ProgressBars2.Properties.Resources.resources
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\ProgressBars2\obj\Debug\ProgressBars2.csproj.GenerateResource.Cache
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\ProgressBars2\obj\Debug\ProgressBars2.dll
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\ProgressBars2\obj\Debug\ProgressBars2.pdb
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\ProgressBars2\obj\Debug\PB.baml
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\ProgressBars2\obj\Debug\PB.g.cs
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\ProgressBars2\obj\Debug\ProgressBars2_MarkupCompile.cache
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\ProgressBars2\obj\Debug\ProgressBars2.g.resources

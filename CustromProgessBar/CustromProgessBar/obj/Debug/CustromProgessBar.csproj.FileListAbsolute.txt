@@ -1,0 +1,13 @@
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\bin\Debug\CustromProgessBar.exe.config
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\bin\Debug\CustromProgessBar.exe
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\bin\Debug\CustromProgessBar.pdb
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\obj\Debug\MainWindow.g.cs
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\obj\Debug\App.g.cs
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\obj\Debug\CustromProgessBar_MarkupCompile.cache
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\obj\Debug\MainWindow.baml
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\obj\Debug\CustromProgessBar.g.resources
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\obj\Debug\CustromProgessBar.Properties.Resources.resources
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\obj\Debug\CustromProgessBar.csproj.GenerateResource.Cache
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\obj\Debug\CustromProgessBar.exe
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\obj\Debug\CustromProgessBar.pdb
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CustromProgessBar\CustromProgessBar\obj\Debug\CustromProgessBar.csprojResolveAssemblyReference.cache

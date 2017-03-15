@@ -1,0 +1,12 @@
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRControl\bin\Debug\CPRControl.dll
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRControl\bin\Debug\CPRControl.pdb
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRControl\obj\Debug\CPRControl.csprojResolveAssemblyReference.cache
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRControl\obj\Debug\UserControl1.g.cs
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRControl\obj\Debug\CPRControl_MarkupCompile.cache
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRControl\obj\Debug\CPRControl_MarkupCompile.lref
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRControl\obj\Debug\UserControl1.baml
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRControl\obj\Debug\CPRControl.g.resources
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRControl\obj\Debug\CPRControl.Properties.Resources.resources
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRControl\obj\Debug\CPRControl.csproj.GenerateResource.Cache
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRControl\obj\Debug\CPRControl.dll
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRControl\obj\Debug\CPRControl.pdb

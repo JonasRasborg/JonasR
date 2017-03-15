@@ -1,0 +1,15 @@
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\bin\Debug\CPRUserControl.exe.config
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\obj\Debug\CPRUserControl.csprojResolveAssemblyReference.cache
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\obj\Debug\MainWindow.g.cs
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\obj\Debug\App.g.cs
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\obj\Debug\CPRUserControl_MarkupCompile.cache
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\obj\Debug\CPRUserControl.exe
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\obj\Debug\CPRUserControl.pdb
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\bin\Debug\CPRUserControl.exe
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\bin\Debug\CPRUserControl.pdb
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\bin\Debug\CPRControl.dll
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\bin\Debug\CPRControl.pdb
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\obj\Debug\MainWindow.baml
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\obj\Debug\CPRUserControl.g.resources
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\obj\Debug\CPRUserControl.Properties.Resources.resources
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\CPRUserControl\CPRUserControl\obj\Debug\CPRUserControl.csproj.GenerateResource.Cache
